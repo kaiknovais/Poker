@@ -1,0 +1,63 @@
+body {
+    background-color: #333; /* cor noturna */
+    color: #fff; /* texto branco */
+    font-family: Arial, sans-serif; /* fonte padrão */
+}
+
+.container {
+    width: 80%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centraliza os containers */
+}
+
+.table-container {
+    width: 55%;
+    margin: 20px;
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow-x: auto; /* adiciona scrollbar horizontal */
+    margin: 20px auto; /* centraliza o container */
+}
+
+table {
+    width: 100%; /* tabela ocupa toda a largura do container */
+    border-collapse: collapse; /* remove espaços entre células */
+    margin: 0 auto; /* centraliza a tabela */
+}
+
+th, td {
+    padding: 10px; /* adiciona padding às células */
+    border: 1px solid #666; /* adiciona borda às células */
+    text-align: left; /* alinha texto à esquerda */
+}
+
+th {
+    background-color: #555; /* cor de fundo para cabeçalho */
+}
+.navbar {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .navbar a:hover {
+    color: #ccc;
+  }
+
+  .navbar h4 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  }
