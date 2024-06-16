@@ -5,12 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<?php include 'navbar.php'; ?>
+	<?php include 'navbar.html'; ?>
 	<div class="container">
 		<div class="table-container" id="fichas">
 			<h2>Fichas de Poker</h2>
 			<table>
-				<?php include 'ficha.php';?>
+				<?php include 'ficha.html';?>
 			</table>
 		</div>
 		<div class="table-container" id="maos">
